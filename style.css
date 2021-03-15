@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(RobotoCondensed-Light.ttf);
+  }
+
+  @font-face {
+    font-family: "Beon";
+    src: url(beon-webfont.ttf);
+  }
+
+
+body{
+    background-color: black;
+    padding: 5vw ;
+}
+
+p{
+    color: white;
+    font-size: 4vw;
+    font-family: "Roboto";
+}
+
+h1{
+    
+    font-size: 6vw;
+    text-align: center;
+    font-family: "Beon";
+    color: #2faee5;
+}
+
+b{
+    font-family: "Beon";
+    color: #2faee5;filter: blur(.6px);
+}
+
+div{
+margin: auto;
+width: 80%;
+border: 5px solid #00ff00;
+
+padding: 10%;
+margin-top: 0 ;
+}
+
+a{
+    color: white;
+}
+
+img{
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+
+    h1{
+        font-size: 9vw;
+    }
+
+    p{
+        font-size: 6vw;
+    }
+}
